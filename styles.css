@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Hellvetica, Roboto, sans-serif;
+}
+section {
+	    margin: 0 auto;
+	    width: 50%;
+	    max-width: 280px;
+}
+img {
+	width: 100%;
+	max-width: 280px;
+	border-radius: 200px;
+}
+p {
+	text-align: center;
+	color: #560b32;
+}
+a {
+	color: #f72d63;
+}
