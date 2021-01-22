@@ -71,7 +71,7 @@ section p {
   font-weight: 300;
   line-height: 1.5em;
   text-align: left;
-  color: #560b32;
+  color: #000000;
 }
 
 .entry {
@@ -89,6 +89,53 @@ a {
   height: auto;
   padding: 2em 0;
   float: left;
+}
+
+#testimonials .testinonial {
+  margin: 0 0 5em 0;
+}
+#testimonials .testinonial img {
+  display: inline-block;
+  border-radius: 100px;
+  border: 1px solid #000;
+  height: 200px;
+  width: 200px;
+  margin-right: 2em;
+  float: left;
+}
+#testimonials .testinonial .prose {
+  display: inline-block;
+  width: 75%;
+  float: left;
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.6em;
+  color: #1f1f1f;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+#testimonials .testinonial .name {
+  display: inline-block;
+  width: auto;
+  float: left;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25em;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  background: #8a8a8a;
+  color: #ffffff;
+  padding: 0.5em 0.75em;
+}
+#testimonials .testinonial .position {
+  display: inline-block;
+  width: auto;
+  float: left;
+  font-style: normal;
+  font-size: 1.25em;
+  color: #8a8a8a;
+  padding: 0.5em;
 }
 
 /*# sourceMappingURL=styles.css.map */
