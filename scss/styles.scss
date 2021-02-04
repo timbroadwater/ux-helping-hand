@@ -26,24 +26,28 @@ div, header, section {
 	}
 }
 header {
-	height: 50px;
-	border-bottom: 1px solid #eee;
+	height: 100px;
+	position: fixed;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+    border-bottom: 1px solid #ccc;
 	h1 {
 		float: left;
-		height: 50px;
 		display: inline-block;
 		margin: 0; 
 		padding: 0;
 		img {
 			width: auto; 
 			max-width: 280px;
-			height: 50px;
+			height: 60px;
+    		padding-top: 20px;
 		}
 	}
 	nav {
 		float: right;
-		height: 30px;
-		padding: 10px 0;
+		height: 20px;
+    	padding: 40px 0 0 0;
 		display: inline-block;	
 		navitem {
 			padding: 0 1em;
@@ -59,6 +63,7 @@ section {
 	    h2 {
 	    	font-size: 2em; 
 	    	font-weight: 600;
+	    	color: #50a9dc;
 	    }
 	    p {
 	    	font-size: 1.5em;
@@ -67,6 +72,13 @@ section {
 			text-align: left;
 			color: #000000;
 		}
+}
+section:nth-child(3n+1) {
+	.content-wrapper {
+		h2 {
+			color: #c9355e;
+		}
+	}
 }
 .entry {
 	background-image: url("../img/stock1.jpg");
