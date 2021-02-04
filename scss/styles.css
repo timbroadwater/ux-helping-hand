@@ -79,6 +79,10 @@ section p {
   color: #000000;
 }
 
+.first-section {
+  padding: 100px 0 4em 0;
+}
+
 section:nth-child(3n+1) .content-wrapper h2 {
   color: #c9355e;
 }
