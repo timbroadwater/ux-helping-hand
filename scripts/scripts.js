@@ -14,3 +14,9 @@ jQuery(function() {
     }
   });
 });
+
+
+// Navigation Import
+$(document).ready(function(){
+  $("#yourDiv").load('../import/nav.html');
+});
